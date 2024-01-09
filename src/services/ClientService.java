@@ -1,3 +1,7 @@
+package services;
+
+import models.Client;
+
 import java.util.ArrayList;
 
 public class ClientService {
@@ -37,6 +41,6 @@ public class ClientService {
 
     public void deleteClient(int index) {
         list.remove(index);
-        System.out.println("Client Successfully removed");
+        System.out.println("models.Client Successfully removed");
     }
 }

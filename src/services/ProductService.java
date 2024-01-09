@@ -1,3 +1,7 @@
+package services;
+
+import models.Product;
+
 import java.util.ArrayList;
 
 public class ProductService {

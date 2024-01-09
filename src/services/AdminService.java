@@ -1,3 +1,7 @@
+package services;
+
+import models.Admin;
+
 import java.util.ArrayList;
 
 public class AdminService {
@@ -23,7 +27,6 @@ public class AdminService {
         }
     }
 
-
     public void updateAdmin (int index, Admin adminAtt) {
         Admin admin = list.get(index);
         admin.setName(adminAtt.getName());
@@ -36,10 +39,9 @@ public class AdminService {
     public void deleteAdmin() {
         if (!list.isEmpty()) {
             list.remove(list.size() - 1);
-            System.out.println("Admin successfully removed");
+            System.out.println("models.Admin successfully removed");
         } else {
-            System.out.println("Admin list is empty");
+            System.out.println("models.Admin list is empty");
         }
     }
-
 }
